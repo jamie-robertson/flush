@@ -1,0 +1,12 @@
+<?php
+/**
+ * @file
+ * Provides installation details for Flush.
+ */
+
+/**
+ * Implements hook_enable().
+ */
+function flush_enable() {
+  drupal_set_message(t('The Flush module was succesfully enabled, press Ctrl+alt+f to Flush.'), 'status');
+}

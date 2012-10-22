@@ -1,0 +1,8 @@
+name = Flush
+description = Flush module adds a quick way to flush Drupal cache.
+ 
+package = Custom  
+core = 7.x  
+
+; the files array indicating which files are part of the module  
+files[] = flush.module  
